@@ -1,14 +1,16 @@
-<!-- Cons-->
+<!-- Vue Imports -->
+<script>
+  export default {
+    name: "Footer"
+  }
+</script>
+
+<!-- Construct -->
 <template>
 
 </template>
 
-<script>
-export default {
-  name: "Footer"
-}
-</script>
-
+<!-- Style -->
 <style scoped>
 
 </style>

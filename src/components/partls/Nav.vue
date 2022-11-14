@@ -1,3 +1,11 @@
+<!-- Vue Imports/Scripts -->
+<script scoped>
+  export default {
+    name: "Nav"
+  }
+</script>
+
+<!-- Construct -->
 <template>
   <WelcomeItem>
     <template #icon>
@@ -13,12 +21,7 @@
 
 </template>
 
-<script>
-export default {
-  name: "Nav"
-}
-</script>
-
+<!-- Style -->
 <style scoped>
 
 </style>

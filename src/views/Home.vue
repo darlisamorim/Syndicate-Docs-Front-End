@@ -1,9 +1,16 @@
+<!-- Vue Imports/Scripts -->
 <script setup>
-import Nav from '../components/partls/Nav.vue'
+  import Nav from '../components/partls/Nav.vue'
 </script>
 
+<!-- Construct -->
 <template>
-  <main class="aqui">
+  <main>
     <Nav />
   </main>
 </template>
+
+<!-- Style -->
+<style>
+</style>
+

@@ -1,13 +1,16 @@
+<!-- Vue Imports -->
+<script>
+  export default {
+    name: "Header"
+  }
+</script>
+
+<!-- Construct -->
 <template>
 
 </template>
 
-<script>
-export default {
-  name: "Header"
-}
-</script>
-
+<!-- Style -->
 <style scoped>
 
 </style>

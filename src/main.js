@@ -5,7 +5,7 @@ import router from './router'
 
 
 // Global Style
-import './base.css'
+import './style.css'
 
 // Construct
 const app = createApp(App)
