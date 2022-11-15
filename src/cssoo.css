@@ -1,0 +1,127 @@
+/* All Variables */
+:root {
+
+    /*
+        Select Colors
+        https://coolors.co/
+    */
+
+    /* Natural Colors */
+    --color-black: hsl(0, 0%, 0%);
+    --color-black-hsla: hsla(0, 0%, 0%, .7); /* Black Transparent */
+
+    --color-white-hue: 0;
+    --color-white-hsla: 1;
+    --color-white: hsla(var(--color-white-hue), 0%, 100%, var(--color-white-hsla));
+    --color-white-hsla: hsla(0, 0%, 100%, .7); /* Black Transparent */
+
+    --color-gray: hsla(0, 0%, 16%, .2);
+
+    /* First Color */
+    /*--color-first: hsla(0, 0%, 0%, .1);*/
+    
+    --color-first-dark-hue: 206;
+    --color-first-dark-hsla: 1;
+    --color-first-dark: hsla(var(--color-first-dark-hue), 34%, 12%, var(--color-first-dark-hsla));
+
+    --color-first-clear-hue: 186;
+    --color-first-clear-hsla: 1;
+    --color-first-clear: hsla(var(--color-first-clear-hue), 96%, 33%, var(--color-first-clear-hsla));
+
+    /* Second Color */
+    /*--color-second: hsla(0, 0%, 0%, .1);*/
+
+    --color-second-dark-hue: 185;
+    --color-second-dark-hsla: 1;
+    --color-second-dark: hsla(var(--color-second-dark-hue), 43%, 73%, var(--color-second-dark-hsla));
+
+    --color-second-clear-hue: 0;
+    --color-second-clear-hsla: 1;
+    --color-second-clear: hsla(var(--color-second-clear-hue), 0%, 95%, var(--color-second-clear-hsla));
+
+    /* Ambient Variables */
+    --fz: 0em !important;
+    --mz: 0;
+    --pz: 0;
+    --dn: none;
+    --font-name: 'Roboto', monospace, sans-serif;
+    --font-name-code: 'Roboto Mono', monospace, sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Source Code Pro', monospace;*/
+
+    /* Convert Size -> ( px ) to ( em ) {N / 16} = Result */
+    --font-mini: .75em; /* 8.4px */
+    --font-smaller: .875em; /* 14px */
+
+    --font-small: 1em; /* 16px */
+    --font-normal: 1.125em;	/* 18px */
+
+    --font-big: 1.5em; /* 24px */
+    --font-very-large: 2em; /* 32px */
+
+    /*--font-big: 3em; !* 48px *!*/
+    /*--font-icon: 3.5em;	!* 56px *!*/
+
+    /* Contents */
+    --container-with: 100%;
+    --content-max-width: 1600px;
+    --content-width: 98%;
+
+    /* Border Radius */
+    --radius: 4px;
+    --radius-50: 50%;
+
+    /* Box Shadow */
+    --box-shadow: 1px 1px 6px 0px var(--black-hsla);
+
+    /* Text Shadow */
+    --text-shadow: 1.4px 2px 0px var(--black);
+
+    /* Transition */
+    --transition: all 280ms ease-in-out;
+
+    /* Rotate */
+    --rotate: rotate(-5deg);
+
+    /* Scale */
+    --scale: scale(1.6);
+}
+
+/* Container's Block */
+.container {
+    width: var(--container-with);
+    display: block;
+}
+.content {
+    width: var(--content-width);
+    max-width: var(--content-max-width);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Container's Flex */
+.container__flex {
+    width: var(--container-with);
+    display: flex;
+    flex-wrap: wrap;
+}
+.content__flex {
+    width: var(--content-width);
+    /*max-width: var(--content-max-width);*/
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* Size zero */
+.fz {
+    font-size: var(--fz);
+    padding: var(--pz);
+    margin: var(--mz);
+}
+
+/* None */
+.dn {
+    display: var(--dn);
+}

@@ -13,11 +13,11 @@ const router = createRouter({
     },
     // Page About
     {
-      path: '/about',
-      name: 'about',
-      // component: () => import('../views/About.vue'),
-      component: () => import('../views/About.vue'),
-      alias: '/about'
+      path: '/docs',
+      name: 'Docs',
+      // component: () => import('../views/Docs.vue'),
+      component: () => import('../views/Docs.vue'),
+      alias: '/docs'
     },
     // Page 404
     {

@@ -1,16 +1,17 @@
 <!-- Vue Imports/Scripts -->
 <script setup>
-  import Nav from '../components/partls/Nav.vue'
 </script>
 
 <!-- Construct -->
 <template>
-  <main>
-    <Nav />
+  <main class="main container">
+    <div class="content">
+    </div>
+    <Aside />
   </main>
 </template>
 
 <!-- Style -->
-<style>
+<style scoped>
 </style>
 

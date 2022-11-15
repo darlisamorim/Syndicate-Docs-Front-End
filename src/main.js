@@ -13,4 +13,4 @@ const app = createApp(App)
 // Use Routers
 app.use(router)
 
-app.mount('#app')
+app.mount('#vue')
